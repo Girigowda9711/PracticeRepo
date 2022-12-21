@@ -40,6 +40,8 @@ public class LoginPageTest {
 	 driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
 	 driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
 	 driver.findElement(By.xpath("//button[@type='submit']")).click();
+	String title = driver.getTitle();
+	System.out.println(title);
 	 driver.quit();
 	 
 	 
