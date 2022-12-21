@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-21T15:41:41Z" name="Default suite" finished-at="2022-12-21T15:41:56Z" duration-ms="14390">
+  <suite started-at="2022-12-21T16:02:02Z" name="Suite" finished-at="2022-12-21T16:02:34Z" duration-ms="32190">
     <groups>
     </groups>
-    <test started-at="2022-12-21T15:41:41Z" name="Default test" finished-at="2022-12-21T15:41:56Z" duration-ms="14390">
+    <test started-at="2022-12-21T16:02:02Z" name="Test" finished-at="2022-12-21T16:02:34Z" duration-ms="32190">
       <class name="com.CalculatorInc.Framework.LoginPageTest">
-        <test-method signature="loginTest()[pri:0, instance:com.CalculatorInc.Framework.LoginPageTest@21ba0741]" started-at="2022-12-21T15:41:41Z" name="loginTest" finished-at="2022-12-21T15:41:56Z" duration-ms="14316" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.CalculatorInc.Framework.LoginPageTest@12359a82]" started-at="2022-12-21T16:02:02Z" name="loginTest" finished-at="2022-12-21T16:02:19Z" duration-ms="17309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
+        <test-method signature="loginTest1()[pri:0, instance:com.CalculatorInc.Framework.LoginPageTest@12359a82]" started-at="2022-12-21T16:02:19Z" name="loginTest1" finished-at="2022-12-21T16:02:34Z" duration-ms="14853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
       </class> <!-- com.CalculatorInc.Framework.LoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
