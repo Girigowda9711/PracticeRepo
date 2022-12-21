@@ -49,6 +49,28 @@ public class LoginPageTest {
 		
 		}
 	
+	@Test
+	public void loginTest2() {
+		WebDriverManager.chromedriver().setup();
+	 driver=new ChromeDriver();
+	 driver.manage().window().maximize();
+	 driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+	 driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+	 driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys("Admin");
+	 driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
+	 driver.findElement(By.xpath("//button[@type='submit']")).click();
+	String title = driver.getTitle();
+	System.out.println(title);
+	 driver.quit();
+	 
+	 
+		
+		
+		}
+	
+
+	
 
 
 }
