@@ -23,6 +23,7 @@ public class LoginPageTest {
 	 driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("admin123");
 	 driver.findElement(By.xpath("//button[@type='submit']")).click();
 	 System.out.println("everything is working fine");
+	 System.out.println("hey ok ");
 	 
 	 driver.quit();
 	 
